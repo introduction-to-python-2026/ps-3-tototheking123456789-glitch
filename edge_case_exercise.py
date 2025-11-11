@@ -10,3 +10,4 @@ def move(my_list, direction):
     elif direction == 'left':
       my_list[index_of_one] = 0
       my_list[index_of_one - 1] = 1
+    return my_list
